@@ -1,0 +1,87 @@
+
+
+@import url(https://db.onlinewebfonts.com/c/2179845ee578cd3bb30b55dc922bfb38?family=Shrek);
+
+
+
+
+/* Everything related to my Header bar at https://gsidam01.github.io/comp20-hw3/ */
+.header {
+    position: fixed;
+    z-index: 10;
+    border-bottom-style: double;
+    border-bottom-color: #964b00;
+    background-color: #75f514;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    border-bottom-width: 8px;
+    margin: 0px;
+    font-family: 'Shrek', georgia;
+}
+
+/* Top of the Header, Logo  */
+
+.header_top_flex {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header_top_flex li {
+    margin: 0px;
+    display: inline-block;
+}
+
+.header_top_flex h1 {
+    right: 75%;
+    /* //margin-right: 20px; */
+}
+.header_top_flex p {
+    left: 75%;
+    /* margin-left: 20px; */
+}
+.header_top_flex img {
+    /* width: 50%; */
+}
+
+/* Bottom of the Header, Nav Bar */
+.header ul {
+    padding-left: 0px;
+    margin-top: -20px;
+}
+
+#header_nav li {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    width: 12%;
+    font-size: 25px;
+}
+
+#header_nav li:hover {
+    background-color: #03A900;
+}
+
+#header_nav li:hover a {
+    color: #ffffff;
+}
+
+#header_nav a {
+    display:inline-block;
+    text-decoration: none;
+    color: #03A900;
+    font-weight: bold;
+    font-size: 75%;
+    padding: 7px 15px;
+}
+
+
+#header_nav a.active {
+  background-color: #025500;
+  color: #ffffff;
+}
