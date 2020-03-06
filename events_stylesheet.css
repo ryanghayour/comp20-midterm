@@ -1,0 +1,43 @@
+
+
+main
+{
+	margin-top: 275px;
+	color: blue;
+    font-family: arial,georgia;
+
+}
+
+article {
+	display: none;
+	margin-left: 3%;
+}
+
+h2
+{
+	display: inline-flex;
+	padding: 1% 4%;
+	background-color: #eeeeee;
+}
+
+#events_bar
+{
+	text-align: center;
+	width: 100%;
+}
+
+section
+{
+	border-style: double;
+	height: 100px;
+	display: inline-block;
+	width: 16%;
+	padding: 0px 15px;
+	    vertical-align: middle;
+    position: relative;
+}
+
+h3
+{
+	margin-bottom: 5px;
+}
